@@ -35,9 +35,6 @@ public:
         return "Имя:" + Name() + " | Фамилия:" + Surname() + " | Группа:" + Group() + " | id:" + to_string(ID()) + "\n";
     }
 
-    void Print(){
-        cout << GetString() << endl;
-    }
 };
 
 class StudentList{
